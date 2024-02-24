@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\resources\\ssh_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\resources\\ssh_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Form1.cs",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs*",
+              "RelativeToolTip": "Godnet Control Panel\\Form1.cs*",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAlwG0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T17:31:16.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Form1.cs",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs [Design]*",
+              "RelativeToolTip": "Godnet Control Panel\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T17:03:51.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SSH_Config.cs",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Resources\\SSH_Config.cs",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Resources\\SSH_Config.cs",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Resources\\SSH_Config.cs",
+              "RelativeToolTip": "Godnet Control Panel\\Resources\\SSH_Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T18:03:22.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

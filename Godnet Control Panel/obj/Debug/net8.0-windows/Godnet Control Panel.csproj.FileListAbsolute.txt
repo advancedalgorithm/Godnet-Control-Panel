@@ -1,0 +1,20 @@
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.csproj.AssemblyReference.cache
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet_Control_Panel.Form1.resources
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet_Control_Panel.Properties.Resources.resources
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.csproj.GenerateResource.cache
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.AssemblyInfoInputs.cache
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.AssemblyInfo.cs
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.csproj.CoreCompileInputs.cache
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Godnet Control Panel.exe
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Godnet Control Panel.deps.json
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Godnet Control Panel.runtimeconfig.json
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Godnet Control Panel.dll
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Godnet Control Panel.pdb
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\bin\Debug\net8.0-windows\Renci.SshNet.dll
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet C.DED228C3.Up2Date
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.dll
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\refint\Godnet Control Panel.dll
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.pdb
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.genruntimeconfig.cache
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\ref\Godnet Control Panel.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9z5zVaSjmDI8SLr5wppSjjFxmy70jSGGpp8HRoxTv/4zR1vpqOy4GJps7OciF79Tknt35oBjk+ccU+9/lssG5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Godnet Control Panel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bango\\.nuget\\packages\\ssh.net\\2024.0.0\\ssh.net.2024.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
