@@ -33,6 +33,7 @@ namespace Godnet_Control_Panel
 
             string[] users = File.ReadAllLines("users.gn");
 
+            dataGridView1.Rows.Clear();
             foreach (string line in users)
             {
                 if (line == string.Empty) break;
@@ -47,7 +48,8 @@ namespace Godnet_Control_Panel
                     line_info[5],
                     line_info[6],
                     line_info[7],
-                    line_info[8]);
+                    line_info[8],
+                    line_info[2]);
             }
 
             label5.BringToFront();
@@ -79,8 +81,13 @@ namespace Godnet_Control_Panel
             { if (t.Text == string.Empty) empty = true; }
             if (empty) err_n_exit("Must fill all connection info textboxes!");
 
-            this.client = SSH_Config.sshInfo(textBox1.Text, textBox2.Text, textBox3.Text);
-            this.client.Connect();
+            try
+            {
+                this.client = SSH_Config.sshInfo(textBox1.Text, textBox2.Text, textBox3.Text);
+                this.client.Connect();
+                label13.Text = "Connection State: Connected";
+            }
+            catch { err_n_exit("Unable to connect to host!"); label13.Text = "Connection State: Failed to connect"; }
         }
 
         public void err_n_exit(string msg) { MessageBox.Show(msg); this.close(); }
@@ -91,7 +98,8 @@ namespace Godnet_Control_Panel
             {
                 this.client.Disconnect();
                 this.client.Dispose();
-            } catch { }
+            }
+            catch { }
             Environment.Exit(0);
         }
 
@@ -111,6 +119,34 @@ namespace Godnet_Control_Panel
 
             richTextBox1.BringToFront();
             this.fix_box();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                File.Delete("users.gn");
+
+                string val = dataGridView1.SelectedRows[0].ToString();
+                string t = "";
+                foreach (DataGridViewRow r in dataGridView1.Rows)
+                {
+                    if ($"{r.Cells[0].Value}" == "") break;
+                    t += $"('{r.Cells[0].Value}','{r.Cells[1].Value}','{r.Cells[8].Value}','{r.Cells[2].Value}','{r.Cells[3].Value}','{r.Cells[4].Value}','{r.Cells[5].Value}','{r.Cells[6].Value}','{r.Cells[7].Value}')";
+                }
+                File.WriteAllText("users.gn", t);
+
+                Stream fs = client.OpenRead("users.gn");
+                client.UploadFile(fs, "/root/cnc/assets/users.gn");
+                MessageBox.Show("Database updated...!");
+            }
+        }
+
+        private void usernameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //DataGridViewRow row = dataGridView1.Rows[0];
+            //string g = row.Cells[5].Value;
+            //MessageBox.Show(g);
         }
     }
 }

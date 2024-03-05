@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Godnet Control Panel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef17d61bb975710cc46156d344019cf2b386b430")]
 [assembly: System.Reflection.AssemblyProductAttribute("Godnet Control Panel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Godnet Control Panel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

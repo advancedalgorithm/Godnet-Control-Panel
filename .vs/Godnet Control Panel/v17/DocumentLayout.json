@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\godnet control panel\\godnet control panel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\godnet control panel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|c:\\users\\bango\\source\\repos\\godnet control panel\\godnet control panel\\resources\\ssh_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\godnet control panel\\godnet control panel.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\godnet control panel.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\godnet control panel\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\godnet control panel\\resources\\ssh_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16F1E869-FD63-407C-892F-958076D7E9EE}|Godnet Control Panel\\Godnet Control Panel.csproj|solutionrelative:godnet control panel\\resources\\ssh_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,36 +34,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Godnet Control Panel",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Godnet Control Panel.csproj",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Godnet Control Panel.csproj",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Godnet Control Panel.csproj",
+              "RelativeToolTip": "Godnet Control Panel\\Godnet Control Panel.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-24T19:04:54.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Godnet Control Panel.csproj",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Godnet Control Panel.csproj",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Godnet Control Panel.csproj",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Godnet Control Panel.csproj",
+              "RelativeToolTip": "Godnet Control Panel\\Godnet Control Panel.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-24T19:04:44.876Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs",
               "RelativeDocumentMoniker": "Godnet Control Panel\\Form1.cs",
-              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs*",
-              "RelativeToolTip": "Godnet Control Panel\\Form1.cs*",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAlwG0AAAA+AAAA",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs",
+              "RelativeToolTip": "Godnet Control Panel\\Form1.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:31:16.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs",
               "RelativeDocumentMoniker": "Godnet Control Panel\\Form1.cs",
-              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs [Design]*",
-              "RelativeToolTip": "Godnet Control Panel\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Form1.cs [Design]",
+              "RelativeToolTip": "Godnet Control Panel\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:03:51.921Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Godnet Control Panel\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Properties\\Settings.settings",
+              "RelativeToolTip": "Godnet Control Panel\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-02-24T19:05:16.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SSH_Config.cs",
               "DocumentMoniker": "C:\\Users\\bango\\source\\repos\\Godnet Control Panel\\Godnet Control Panel\\Resources\\SSH_Config.cs",
               "RelativeDocumentMoniker": "Godnet Control Panel\\Resources\\SSH_Config.cs",
@@ -59,8 +107,7 @@
               "RelativeToolTip": "Godnet Control Panel\\Resources\\SSH_Config.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T18:03:22.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T18:03:22.776Z"
             }
           ]
         }

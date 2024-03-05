@@ -18,3 +18,4 @@ C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\
 C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.pdb
 C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.genruntimeconfig.cache
 C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\ref\Godnet Control Panel.dll
+C:\Users\bango\source\repos\Godnet Control Panel\Godnet Control Panel\obj\Debug\net8.0-windows\Godnet Control Panel.sourcelink.json

@@ -28,17 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             label13 = new Label();
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            button2 = new Button();
             button1 = new Button();
             panel8 = new Panel();
             textBox3 = new TextBox();
@@ -80,9 +83,27 @@
             max_con = new DataGridViewTextBoxColumn();
             expiry = new DataGridViewTextBoxColumn();
             rank = new DataGridViewTextBoxColumn();
+            password = new DataGridViewTextBoxColumn();
             label10 = new Label();
             label8 = new Label();
             richTextBox1 = new RichTextBox();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            copyToolStripMenuItem = new ToolStripMenuItem();
+            usernameToolStripMenuItem = new ToolStripMenuItem();
+            iPAddressToolStripMenuItem = new ToolStripMenuItem();
+            planToolStripMenuItem = new ToolStripMenuItem();
+            maxConsToolStripMenuItem = new ToolStripMenuItem();
+            maxTimeToolStripMenuItem = new ToolStripMenuItem();
+            runningConsToolStripMenuItem = new ToolStripMenuItem();
+            expiryToolStripMenuItem = new ToolStripMenuItem();
+            rankToolStripMenuItem = new ToolStripMenuItem();
+            updateToolStripMenuItem = new ToolStripMenuItem();
+            planToolStripMenuItem1 = new ToolStripMenuItem();
+            maxConsToolStripMenuItem1 = new ToolStripMenuItem();
+            timeToolStripMenuItem = new ToolStripMenuItem();
+            runningConsToolStripMenuItem1 = new ToolStripMenuItem();
+            expiryToolStripMenuItem1 = new ToolStripMenuItem();
+            rankToolStripMenuItem1 = new ToolStripMenuItem();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -94,6 +115,7 @@
             panel17.SuspendLayout();
             panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            contextMenuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -157,6 +179,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(button2);
             panel2.Controls.Add(button1);
             panel2.Controls.Add(panel8);
             panel2.Controls.Add(panel6);
@@ -167,6 +190,20 @@
             panel2.Size = new Size(234, 180);
             panel2.TabIndex = 1;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(192, 0, 0);
+            button2.FlatAppearance.BorderColor = Color.FromArgb(192, 0, 0);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = Color.Silver;
+            button2.Location = new Point(109, 136);
+            button2.Name = "button2";
+            button2.Size = new Size(111, 33);
+            button2.TabIndex = 6;
+            button2.Text = "Save Current DB";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(192, 0, 0);
@@ -175,7 +212,7 @@
             button1.ForeColor = Color.Silver;
             button1.Location = new Point(12, 136);
             button1.Name = "button1";
-            button1.Size = new Size(208, 33);
+            button1.Size = new Size(91, 33);
             button1.TabIndex = 5;
             button1.Text = "Connect";
             button1.UseVisualStyleBackColor = false;
@@ -524,51 +561,52 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(42, 42, 42);
-            dataGridViewCellStyle6.ForeColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle6.SelectionForeColor = Color.Silver;
-            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(42, 42, 42);
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle1.SelectionForeColor = Color.Silver;
+            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.BackgroundColor = Color.FromArgb(42, 42, 42);
             dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb(42, 42, 42);
-            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle7.ForeColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle7.SelectionForeColor = Color.Silver;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(42, 42, 42);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle2.SelectionForeColor = Color.Silver;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.ColumnHeadersVisible = false;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { username, ipaddr, plan, max_attks, max_time, max_con, expiry, rank });
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = Color.FromArgb(42, 42, 42);
-            dataGridViewCellStyle8.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle8.ForeColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle8.SelectionForeColor = Color.Silver;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { username, ipaddr, plan, max_attks, max_time, max_con, expiry, rank, password });
+            dataGridView1.ContextMenuStrip = contextMenuStrip1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(42, 42, 42);
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle3.SelectionForeColor = Color.Silver;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.GridColor = Color.FromArgb(192, 0, 0);
             dataGridView1.Location = new Point(2, 35);
             dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb(42, 42, 42);
-            dataGridViewCellStyle9.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle9.ForeColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle9.SelectionForeColor = Color.Silver;
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(42, 42, 42);
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle4.SelectionForeColor = Color.Silver;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle10.BackColor = Color.FromArgb(42, 42, 42);
-            dataGridViewCellStyle10.ForeColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(192, 0, 0);
-            dataGridViewCellStyle10.SelectionForeColor = Color.Silver;
-            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(42, 42, 42);
+            dataGridViewCellStyle5.ForeColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(192, 0, 0);
+            dataGridViewCellStyle5.SelectionForeColor = Color.Silver;
+            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(671, 348);
+            dataGridView1.Size = new Size(739, 348);
             dataGridView1.TabIndex = 2;
             // 
             // username
@@ -617,6 +655,11 @@
             rank.Name = "rank";
             rank.Width = 50;
             // 
+            // password
+            // 
+            password.HeaderText = "Password";
+            password.Name = "password";
+            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -653,6 +696,143 @@
             richTextBox1.TabIndex = 11;
             richTextBox1.Text = "";
             // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { copyToolStripMenuItem, updateToolStripMenuItem });
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(181, 70);
+            // 
+            // copyToolStripMenuItem
+            // 
+            copyToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            copyToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usernameToolStripMenuItem, iPAddressToolStripMenuItem, planToolStripMenuItem, maxConsToolStripMenuItem, maxTimeToolStripMenuItem, runningConsToolStripMenuItem, expiryToolStripMenuItem, rankToolStripMenuItem });
+            copyToolStripMenuItem.ForeColor = Color.Silver;
+            copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            copyToolStripMenuItem.Size = new Size(180, 22);
+            copyToolStripMenuItem.Text = "Copy ";
+            // 
+            // usernameToolStripMenuItem
+            // 
+            usernameToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            usernameToolStripMenuItem.ForeColor = Color.Silver;
+            usernameToolStripMenuItem.Name = "usernameToolStripMenuItem";
+            usernameToolStripMenuItem.Size = new Size(180, 22);
+            usernameToolStripMenuItem.Text = "Username";
+            usernameToolStripMenuItem.Click += usernameToolStripMenuItem_Click;
+            // 
+            // iPAddressToolStripMenuItem
+            // 
+            iPAddressToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            iPAddressToolStripMenuItem.ForeColor = Color.Silver;
+            iPAddressToolStripMenuItem.Name = "iPAddressToolStripMenuItem";
+            iPAddressToolStripMenuItem.Size = new Size(180, 22);
+            iPAddressToolStripMenuItem.Text = "IP Address";
+            // 
+            // planToolStripMenuItem
+            // 
+            planToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            planToolStripMenuItem.ForeColor = Color.Silver;
+            planToolStripMenuItem.Name = "planToolStripMenuItem";
+            planToolStripMenuItem.Size = new Size(180, 22);
+            planToolStripMenuItem.Text = "Plan";
+            // 
+            // maxConsToolStripMenuItem
+            // 
+            maxConsToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            maxConsToolStripMenuItem.ForeColor = Color.Silver;
+            maxConsToolStripMenuItem.Name = "maxConsToolStripMenuItem";
+            maxConsToolStripMenuItem.Size = new Size(180, 22);
+            maxConsToolStripMenuItem.Text = "Max Cons";
+            // 
+            // maxTimeToolStripMenuItem
+            // 
+            maxTimeToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            maxTimeToolStripMenuItem.ForeColor = Color.Silver;
+            maxTimeToolStripMenuItem.Name = "maxTimeToolStripMenuItem";
+            maxTimeToolStripMenuItem.Size = new Size(180, 22);
+            maxTimeToolStripMenuItem.Text = "Max Time";
+            // 
+            // runningConsToolStripMenuItem
+            // 
+            runningConsToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            runningConsToolStripMenuItem.ForeColor = Color.Silver;
+            runningConsToolStripMenuItem.Name = "runningConsToolStripMenuItem";
+            runningConsToolStripMenuItem.Size = new Size(180, 22);
+            runningConsToolStripMenuItem.Text = "Running Cons";
+            // 
+            // expiryToolStripMenuItem
+            // 
+            expiryToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            expiryToolStripMenuItem.ForeColor = Color.Silver;
+            expiryToolStripMenuItem.Name = "expiryToolStripMenuItem";
+            expiryToolStripMenuItem.Size = new Size(180, 22);
+            expiryToolStripMenuItem.Text = "Expiry";
+            // 
+            // rankToolStripMenuItem
+            // 
+            rankToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            rankToolStripMenuItem.ForeColor = Color.Silver;
+            rankToolStripMenuItem.Name = "rankToolStripMenuItem";
+            rankToolStripMenuItem.Size = new Size(180, 22);
+            rankToolStripMenuItem.Text = "Rank";
+            // 
+            // updateToolStripMenuItem
+            // 
+            updateToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            updateToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { planToolStripMenuItem1, maxConsToolStripMenuItem1, timeToolStripMenuItem, runningConsToolStripMenuItem1, expiryToolStripMenuItem1, rankToolStripMenuItem1 });
+            updateToolStripMenuItem.ForeColor = Color.Silver;
+            updateToolStripMenuItem.Name = "updateToolStripMenuItem";
+            updateToolStripMenuItem.Size = new Size(180, 22);
+            updateToolStripMenuItem.Text = "Update";
+            // 
+            // planToolStripMenuItem1
+            // 
+            planToolStripMenuItem1.BackColor = Color.FromArgb(192, 0, 0);
+            planToolStripMenuItem1.ForeColor = Color.Silver;
+            planToolStripMenuItem1.Name = "planToolStripMenuItem1";
+            planToolStripMenuItem1.Size = new Size(149, 22);
+            planToolStripMenuItem1.Text = "Plan";
+            // 
+            // maxConsToolStripMenuItem1
+            // 
+            maxConsToolStripMenuItem1.BackColor = Color.FromArgb(192, 0, 0);
+            maxConsToolStripMenuItem1.ForeColor = Color.Silver;
+            maxConsToolStripMenuItem1.Name = "maxConsToolStripMenuItem1";
+            maxConsToolStripMenuItem1.Size = new Size(149, 22);
+            maxConsToolStripMenuItem1.Text = "Max Cons";
+            // 
+            // timeToolStripMenuItem
+            // 
+            timeToolStripMenuItem.BackColor = Color.FromArgb(192, 0, 0);
+            timeToolStripMenuItem.ForeColor = Color.Silver;
+            timeToolStripMenuItem.Name = "timeToolStripMenuItem";
+            timeToolStripMenuItem.Size = new Size(149, 22);
+            timeToolStripMenuItem.Text = "Time";
+            // 
+            // runningConsToolStripMenuItem1
+            // 
+            runningConsToolStripMenuItem1.BackColor = Color.FromArgb(192, 0, 0);
+            runningConsToolStripMenuItem1.ForeColor = Color.Silver;
+            runningConsToolStripMenuItem1.Name = "runningConsToolStripMenuItem1";
+            runningConsToolStripMenuItem1.Size = new Size(149, 22);
+            runningConsToolStripMenuItem1.Text = "Running Cons";
+            // 
+            // expiryToolStripMenuItem1
+            // 
+            expiryToolStripMenuItem1.BackColor = Color.FromArgb(192, 0, 0);
+            expiryToolStripMenuItem1.ForeColor = Color.Silver;
+            expiryToolStripMenuItem1.Name = "expiryToolStripMenuItem1";
+            expiryToolStripMenuItem1.Size = new Size(149, 22);
+            expiryToolStripMenuItem1.Text = "Expiry";
+            // 
+            // rankToolStripMenuItem1
+            // 
+            rankToolStripMenuItem1.BackColor = Color.FromArgb(192, 0, 0);
+            rankToolStripMenuItem1.ForeColor = Color.Silver;
+            rankToolStripMenuItem1.Name = "rankToolStripMenuItem1";
+            rankToolStripMenuItem1.Size = new Size(149, 22);
+            rankToolStripMenuItem1.Text = "Rank";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -664,8 +844,9 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "l";
             FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             panel1.ResumeLayout(false);
@@ -687,6 +868,7 @@
             panel11.ResumeLayout(false);
             panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            contextMenuStrip1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -725,14 +907,6 @@
         private Label label5;
         private DataGridView dataGridView1;
         private Panel panel16;
-        private DataGridViewTextBoxColumn username;
-        private DataGridViewTextBoxColumn ipaddr;
-        private DataGridViewTextBoxColumn plan;
-        private DataGridViewTextBoxColumn max_attks;
-        private DataGridViewTextBoxColumn max_time;
-        private DataGridViewTextBoxColumn max_con;
-        private DataGridViewTextBoxColumn expiry;
-        private DataGridViewTextBoxColumn rank;
         private Label label12;
         private Label label11;
         private Label label9;
@@ -742,5 +916,32 @@
         private Label label8;
         private Label label13;
         private RichTextBox richTextBox1;
+        private Button button2;
+        private DataGridViewTextBoxColumn username;
+        private DataGridViewTextBoxColumn ipaddr;
+        private DataGridViewTextBoxColumn plan;
+        private DataGridViewTextBoxColumn max_attks;
+        private DataGridViewTextBoxColumn max_time;
+        private DataGridViewTextBoxColumn max_con;
+        private DataGridViewTextBoxColumn expiry;
+        private DataGridViewTextBoxColumn rank;
+        private DataGridViewTextBoxColumn password;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem copyToolStripMenuItem;
+        private ToolStripMenuItem usernameToolStripMenuItem;
+        private ToolStripMenuItem iPAddressToolStripMenuItem;
+        private ToolStripMenuItem planToolStripMenuItem;
+        private ToolStripMenuItem maxConsToolStripMenuItem;
+        private ToolStripMenuItem maxTimeToolStripMenuItem;
+        private ToolStripMenuItem runningConsToolStripMenuItem;
+        private ToolStripMenuItem expiryToolStripMenuItem;
+        private ToolStripMenuItem rankToolStripMenuItem;
+        private ToolStripMenuItem updateToolStripMenuItem;
+        private ToolStripMenuItem planToolStripMenuItem1;
+        private ToolStripMenuItem maxConsToolStripMenuItem1;
+        private ToolStripMenuItem timeToolStripMenuItem;
+        private ToolStripMenuItem runningConsToolStripMenuItem1;
+        private ToolStripMenuItem expiryToolStripMenuItem1;
+        private ToolStripMenuItem rankToolStripMenuItem1;
     }
 }
